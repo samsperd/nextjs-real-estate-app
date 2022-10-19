@@ -40,7 +40,7 @@ const Search = ({ properties }) => {
             </Text>
             <Flex flexWrap={"wrap"}>
                 {
-                    properties.map((property) => <Property property={property} key={property.id} />)
+                    properties.map((property) => (<Property property={property} key={property.id} />))
                 }
             </Flex>
             {
